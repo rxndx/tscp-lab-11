@@ -15,10 +15,10 @@ public final class setHealthConditionTest {
    /**
    * Some information about MIN_CONDITION_ID.
    */
-  private static final Integer MIN_LITERATURE_ID = 0;
+  private static final Integer MIN_CONDITION_ID = 0;
   
    /**
-   * Some information about MAX_LITERATURE_ID.
+   * Some information about MAX_CONDITION_ID.
    */
   private static final Integer MAX_CONDITION_ID = 1000000000;
     

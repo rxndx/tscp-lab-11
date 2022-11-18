@@ -29,7 +29,7 @@ public final class setHealthConditionTest {
                 new TEST_VALUES(9, "16.07.21", 446, 68, 6734, 118),
                 new TEST_VALUES(-100, "16.07.21", 446, 68, 6734, 118),
                 new TEST_VALUES(1, "16.13.26", 446, 68, 6734, 118),
-                new TEST_VALUES(1, "16.07.21", -100, 68, 6734, 118),
+                new TEST_VALUES(1, "16.07.21", -100, 68, 6734, 118)
         ));
     
    /**

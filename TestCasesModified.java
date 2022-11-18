@@ -33,11 +33,11 @@ public class UserTest {
 
         Users BadUserOne = new Users(-67, "man");
         int actualResultSecond = testUser(BadUserOne);
-        System.out.println("TC2: user " + BadUserOne + " should not pass check.  Expected result = -1, actual result = " + actualResultSecond + " || " + ((-3 == actualResultSecond)?("PASSED"):("FAILED")));
+        System.out.println("TC2: user " + BadUserOne + " should not pass check.  Expected result = -3, actual result = " + actualResultSecond + " || " + ((-3 == actualResultSecond)?("PASSED"):("FAILED")));
 
         Users BadUserTwo = new Users(15, "notset");
         int actualResultThird = testUser(BadUserTwo);
-        System.out.println("TC3: user " + BadUserTwo + "  should not pass check.  Expected result = -2, actual result = " + actualResultThird + " || " + ((-12 == actualResultThird)?("PASSED"):("FAILED")));
+        System.out.println("TC3: user " + BadUserTwo + "  should not pass check.  Expected result = -12, actual result = " + actualResultThird + " || " + ((-12 == actualResultThird)?("PASSED"):("FAILED")));
 
         if (0 != actualResultFirst || -3 != actualResultSecond || -12 != actualResultThird) {
             System.exit(-1);
